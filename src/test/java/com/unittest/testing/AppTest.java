@@ -187,108 +187,109 @@ public class AppTest
 			double actual = object.getCelcius();
 			assertEquals(expected,actual,2);
 		}
-//		@Test
-//		public void testResult0input499() {
-//			double input = 499;
-//			double expected = 930.2;
-//			object.input(input);
-//			double actual = object.getCelcius();
-//			assertEquals(expected,actual,2);
-//		}
-//		@Test
-//		public void testResult499inputNegative499() {
-//			double input = 499;
-//			double expected = -837.2;
-//			object.input(input);
-//			double actual = object.getCelcius();
-//			assertEquals(expected,actual,2);
-//		}
-//		@Test
-//		public void testResult0input500() {
-//			double input = 500;
-//			double expected = 932;
-//			object.input(input);
-//			double actual = object.getCelcius();
-//			assertEquals(expected,actual,2);
-//		}
-//		@Test
-//		public void testResult0inputNegative500() {
-//			double input = -500;
-//			double expected = -868;
-//			object.input(input);
-//			double actual = object.getCelcius();
-//			assertEquals(expected,actual,2);
-//		}
-//		@Test
-//		public void testResult0input501() {
-//			double input = 501;
-//			double expected = 933.8;
-//			object.input(input);
-//			double actual = object.getCelcius();
-//			assertEquals(expected,actual,2);
-//		}
-//		@Test
-//		public void testResult0inputNegative501() {
-//			double input = -501;
-//			double expected = -869.8;
-//			object.input(input);
-//			double actual = object.getCelcius();
-//			assertEquals(expected,actual,2);
-//		}
-//		@Test
-//		public void testResult0input999() {
-//			double input = 999;
-//			double expected = 1830.2;
-//			object.input(input);
-//			double actual = object.getCelcius();
-//			assertEquals(expected,actual,2);
-//		}
-//		@Test
-//		public void testResult0inputNegative999() {
-//			double input = -999;
-//			double expected = -1766.2;
-//			object.input(input);
-//			double actual = object.getCelcius();
-//			assertEquals(expected,actual,2);
-//		}
-//		@Test
-//		public void testResult0input1001() {
-//			double input = 1001;
-//			double expected = 1833.8;
-//			object.input(input);
-//			double actual = object.getCelcius();
-//			assertEquals(expected,actual,2);
-//		}
-//		@Test
-//		public void testResult0inputNegative1001() {
-//			double input = -1;
-//			double expected = -1769.8;
-//			object.input(input);
-//			double actual = object.getCelcius();
-//			assertEquals(expected,actual,2);
-//		}
-//		@Test
-//		public void testResult0input1010() {
-//			double input = 1010;
-//			double expected = 1850;
-//			object.input(input);
-//			double actual = object.getCelcius();
-//			assertEquals(expected,actual,2);
-//		}
-//		@Test
-//		public void testResult0input2000() {
-//			double input = 2000;
-//			double expected = 3632;
-//			object.input(input);
-//			double actual = object.getCelcius();
-//			assertEquals(expected,actual,2);
-//		@Test
-//		public void testResult2000inputNegative2000() {
-//			double input = -2000;
-//			double expected = -3568;
-//			object.input(input);
-//			double actual = object.getCelcius();
-//			assertEquals(expected,actual,2);
-//		}
+		@Test
+		public void testResult0input499() {
+			double input = 499;
+			double expected = 499;
+			object.input(input);
+			double actual = object.getCelcius();
+			assertEquals(expected,actual,2);
+		}
+		@Test
+		public void testResult499inputNegative499() {
+			double input = -499;
+			double expected = -499;
+			object.input(input);
+			double actual = object.getCelcius();
+			assertEquals(expected,actual,2);
+		}
+		@Test
+		public void testResult0input500() {
+			double input = 500;
+			double expected = 500;
+			object.input(input);
+			double actual = object.getCelcius();
+			assertEquals(expected,actual,2);
+		}
+		@Test
+		public void testResult0inputNegative500() {
+			double input = -500;
+			double expected = -500;
+			object.input(input);
+			double actual = object.getCelcius();
+			assertEquals(expected,actual,2);
+		}
+		@Test
+		public void testResult0input501() {
+			double input = 501;
+			double expected = 501;
+			object.input(input);
+			double actual = object.getCelcius();
+			assertEquals(expected,actual,2);
+		}
+		@Test
+		public void testResult0inputNegative501() {
+			double input = -501;
+			double expected = -501;
+			object.input(input);
+			double actual = object.getCelcius();
+			assertEquals(expected,actual,2);
+		}
+		@Test
+		public void testResult0input999() {
+			double input = 999;
+			double expected = 999;
+			object.input(input);
+			double actual = object.getCelcius();
+			assertEquals(expected,actual,2);
+		}
+		@Test
+		public void testResult0inputNegative999() {
+			double input = -999;
+			double expected = -999;
+			object.input(input);
+			double actual = object.getCelcius();
+			assertEquals(expected,actual,2);
+		}
+		@Test
+		public void testResult0input1001() {
+			double input = 1001;
+			double expected = 1001;
+			object.input(input);
+			double actual = object.getCelcius();
+			assertEquals(expected,actual,2);
+		}
+		@Test
+		public void testResult0inputNegative1001() {
+			double input = -1001;
+			double expected = -1001;
+			object.input(input);
+			double actual = object.getCelcius();
+			assertEquals(expected,actual,2);
+		}
+		@Test
+		public void testResult0input1010() {
+			double input = 1010;
+			double expected = 1010;
+			object.input(input);
+			double actual = object.getCelcius();
+			assertEquals(expected,actual,2);
+		}
+		@Test
+		public void testResult0input2000() {
+			double input = 2000;
+			double expected = 2000;
+			object.input(input);
+			double actual = object.getCelcius();
+			assertEquals(expected,actual,2);
+		}
+		@Test
+		public void testResult2000inputNegative2000() {
+			double input = -2000;
+			double expected = -2000;
+			object.input(input);
+			double actual = object.getCelcius();
+			assertEquals(expected,actual,2);
+		}
 		
 }
